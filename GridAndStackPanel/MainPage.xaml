@@ -9,6 +9,18 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <StackPanel>
+            <TextBlock>First</TextBlock>
+            <TextBlock>Second</TextBlock>
+            <TextBlock>Third</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Forth</TextBlock>
+                <TextBlock>Fifth</TextBlock>
+                <TextBlock>Sixth</TextBlock>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Height="200">
+            <Rectangle Fill="Red" Height="100"/>
+        </StackPanel>
     </Grid>
 </Page>
